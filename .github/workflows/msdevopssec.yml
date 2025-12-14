@@ -87,5 +87,5 @@ jobs:
       # Upload Gitleaks results
     #  - name: Upload Gitleaks secret scan
      #   uses: github/codeql-action/upload-sarif@v3
-        with:
-          sarif_file: gitleaks.sarif
+      #  with:
+      #    sarif_file: gitleaks.sarif
